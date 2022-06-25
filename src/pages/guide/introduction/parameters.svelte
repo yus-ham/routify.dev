@@ -56,4 +56,10 @@
     The propagation is to prevent race conditions between parameters and
     component state.
   </p>
+
+  <br />
+  <h3 class="c-h3">Known Issues</h3>
+  <p>
+    Accessing local parameters in markup triger to re-rendering component before navigating to it's parent directory. See #380
+  </p>
 </div>
